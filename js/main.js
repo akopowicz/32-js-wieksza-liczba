@@ -1,14 +1,14 @@
 let num1 = 2;
 let num2 = 5;
 
-function number() {
-    if (num1 > num2) {
-        result = num1;
+function number(x, y) {
+    if (x > y) {
+        result = x;
     } else {
-        result = num2;
+        result = y;
     }
 return result;
 }
 
-console.log(number());
+console.log(number(num1, num2));
 
